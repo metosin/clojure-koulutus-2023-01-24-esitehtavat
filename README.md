@@ -101,4 +101,18 @@ Varmistetaan vielä että kaikki toimii.
   ```
 - Avaa selaimessa http://localhost:3000
 
-Olet valmis koulutukseen.
+Työkalut ovat nyt kunnossa!
+
+## Muuta valmisteltavaa
+
+Koulutuksessa käytetään Dockeria, mutta sen käytön osaamista ei koulutuksessa tarvita. Docker on kuitenkin erittäin hyvä työkalu jonka tunteminen on varmasti eduksi jatkossa. Dockerista lisää täällä: https://docs.docker.com/get-started/
+
+Jos et ole aikaisemmin käyttänyt ReactJS kirjastoa siihen kannattaa tutustua lukaisemalla sen dokumentaatiota täältä: https://reactjs.org Vaikka emme koulutuksessa käytä ReactJS kirjastoa suoraan, sen toiminnan tunteminen auttaa ymmärtämään Clojure kirjastoja jotka tukeutuvat siihen.
+
+## Clojuresta verkossa
+
+Clojureen voi tutustua ennekolta seuraavien linkkien kautta:
+
+- Clojuren suunnittelu periaatteet: https://clojure.org/about/rationale
+- ClojureTV youtube kanava: https://www.youtube.com/@ClojureTV
+- Metosin youtube kanava: https://www.youtube.com/@Metosin
