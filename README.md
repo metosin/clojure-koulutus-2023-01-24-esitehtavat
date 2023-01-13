@@ -41,14 +41,19 @@ Varmista että sinulla on seuraavat työkalut asennettuna:
   openjdk version "19.0.1" 2022-10-18
   OpenJDK Runtime Environment Temurin-19.0.1+10 (build 19.0.1+10)
   OpenJDK 64-Bit Server VM Temurin-19.0.1+10 (build 19.0.1+10, mixed mode, sharing)
+
   $ clj --version
   Clojure CLI version 1.11.1.1208
+
   $ node --version
   v16.18.0
+
   $ npm --version
   8.19.2
+
   $ git --version
   git version 2.39.0
+
   $ docker version
   Client:
     Cloud integration: v1.0.29
@@ -82,10 +87,11 @@ Varmistetaan vielä että kaikki toimii.
   ```
 - Käännä frontednd
   ```bash
+  cd clojure-koulutus-2023-01-24-esitehtavat
   npm i
   npm run release
   ```
-- Käännä ja paketoi backend überjar pakettiin
+- Käännä backend ja paketoi se überjar pakettiin
   ```bash
   clj -Muberjar
   ```
@@ -93,7 +99,6 @@ Varmistetaan vielä että kaikki toimii.
   ```bash
   java -cp ./target/clojure-koulutus-2023-01-24-esitehtavat.jar clojure.main -m server.main
   ```
-- Avaa frontti
-  - Avaa selaimessa http://localhost:3000
+- Avaa selaimessa http://localhost:3000
 
 Olet valmis koulutukseen.
