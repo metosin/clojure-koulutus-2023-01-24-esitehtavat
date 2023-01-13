@@ -1,0 +1,8 @@
+;; shadow-cljs configuration
+{:deps   {:aliases [:dev :web :server]}
+ :builds {:web {:target     :browser
+                :output-dir "resources/public/js"
+                :asset-path "js"
+                :modules    {:main {:entries [web.app]}}
+                :devtools   {:http-root "resources/public"
+                             :http-port 3080}}}}

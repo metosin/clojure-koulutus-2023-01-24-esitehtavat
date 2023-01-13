@@ -80,3 +80,20 @@ Varmistetaan vielä että kaikki toimii.
   ```bash
   git clone git@github.com:metosin/clojure-koulutus-2023-01-24-esitehtavat.git
   ```
+- Käännä frontednd
+  ```bash
+  npm i
+  npm run release
+  ```
+- Käännä ja paketoi backend überjar pakettiin
+  ```bash
+  clj -Muberjar
+  ```
+- Käynnistä serveri
+  ```bash
+  java -cp ./target/clojure-koulutus-2023-01-24-esitehtavat.jar clojure.main -m server.main
+  ```
+- Avaa frontti
+  - Avaa selaimessa http://localhost:3000
+
+Olet valmis koulutukseen.

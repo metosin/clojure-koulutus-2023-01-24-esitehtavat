@@ -1,0 +1,13 @@
+/resources/public/js
+/.cpcache
+/node_modules/
+/.shadow-cljs/
+/target
+/.idea
+/.nrepl-*
+/.DS_Store
+/.calva/output-window/
+/.clj-kondo/.cache/
+/.lsp/.cache/
+*.log
+*.swp
